@@ -27,6 +27,6 @@ int main() {
         printf("Total weekly expenses : %.2f\n", total);
         printf("Highest expense: %.2f\n", high);
         printf("Do you want to enter expenses again (Y/N): ");
-        scanf(" %c", &a); //reads the character entered by the user and ignores whitespaces, including the newline character
+        scanf(" %c", &a); 
     }while (a == 'y'|| a=='Y');
 }
