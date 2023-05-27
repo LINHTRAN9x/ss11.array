@@ -2,7 +2,7 @@
 
 int main() {
     float store[7];
-    int budget = 5000000;
+    int budget = 5000000VND;
     int i;
     float total = 0, high = 0;
     char a;
@@ -24,8 +24,8 @@ int main() {
             printf("----------------Summary---------------\n");
             printf("Expenses are within the budget\n");
         }
-        printf("Total weekly expenses : %.2f\n", total);
-        printf("Highest expense: %.2f\n", high);
+        printf("Total weekly expenses : %.2fVND\n", total);
+        printf("Highest expense: %.2fVND\n", high);
         printf("Do you want to enter expenses again (Y/N): ");
         scanf(" %c", &a); 
     }while (a == 'y'|| a=='Y');
